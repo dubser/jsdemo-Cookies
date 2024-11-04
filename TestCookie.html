@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- Version stable de Cookie -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test des Cookies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Panneau de controle global -->
+    <div class="control-panel">
+        <h2>Test des Cookies</h2>
+
+<!-- Nouveau panneau CookieName -->
+<div class="contCookName">
+    <div class="colCookName">Nom</div>
+    <div class="colCookName">Valeur</div>
+
+    <div class="colCookName">
+        <textarea id="cookNameIn" rows="1" cols="25" 
+        onblur="GetCokNam(event)">SduCookie</textarea>
+    </div>
+
+    <div class="colCookName">
+        <textarea id="cookValuIn"  rows="1" cols="25"
+        onblur="GetCokValue(event)">123</textarea>
+    </div>
+</div>
+<!-- / Nouveau panneau CookieName  -->
+
+
+        <div id="ListWindow">
+             <!-- Fenetre d.écriture globale  -->
+           Texte par défaut du DIV
+        </div>
+            <!-- Ligne de boutons.  -->
+        <div class="control-item">
+            <button onclick="ecrire()">Écrire</button>
+            <button onclick="lire()">Lire tout</button>
+            <button onclick="supprimer()">Supprimer</button> 
+            <button onclick="test()">Test</button>
+        </div>     
+    </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+
