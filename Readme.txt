@@ -1,3 +1,4 @@
+A essayer avec le panneau de controle.
 Créer un Cookie créer un cookie en JavaScript, utiliser la 
 propriété document.
 Le bouton Créer permet de sélectionner un nom de cookie qui sera créé a 
